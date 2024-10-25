@@ -4,11 +4,11 @@ name: "Hello world workflow by Hritik Bhandari"
 on:
   push:
     branches:
-      - master #in list we start with hyphen
+      - master   
       - production
 
 jobs:
-  hello_world: #we create an object
+  hello_world: 
    runs-on: ubuntu-latest
    steps:
     - name: "Print hello world"
